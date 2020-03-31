@@ -2,8 +2,6 @@
 
 # ProGrad Lab | Angular Forms - Material Design
 
-
-
 ## Learning Goals
 
 After this lesson, you will be able to:
