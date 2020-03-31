@@ -77,7 +77,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 ```
 - Write the validation code for login form inside login.component.ts and validation code for registration inside registration.component.ts.
 - To bind the form values along with your validation, try using the below code `ngClass` snippet in your html file inside the input tag.
-`    
+```   
 <mat-form-field class="example-full-width">
           <mat-label>Email</mat-label>
           <input matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
@@ -89,7 +89,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
             Email is <strong>required</strong>
           </mat-error>
         </mat-form-field>
-       `
+  ```
 - Validate all the fields given in the form.
 
 ## Expected Output:
