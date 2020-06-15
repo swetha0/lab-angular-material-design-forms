@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/bg.jpg');
+    padding: 60px;
+    }
+.form-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 300px;
+    height: 200px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    padding: 80px 40px;
+    padding-bottom: 30px;    
+    margin-left: 400px;
+    background: white; 
+}
+button {
+    background-color: white;
+    color: rgb(173, 67, 173);
+    border:1px solid rgb(173, 67, 173);
+    height: 4em;
+  }
+span{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}

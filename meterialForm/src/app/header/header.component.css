@@ -1,0 +1,21 @@
+.buttons,
+.buttons a {
+  margin-right: 8px;
+}
+
+h2 {
+  background:blue;
+  color: white;
+}
+
+.example-button-row {
+  display: grid;
+  grid-template-columns: 2fr 5fr 1.5fr 1.5fr;
+  background:blue;
+  padding: 20px;
+
+}
+
+button {
+  color: white;
+}
